@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Canadian</title>
+  </head>
+
+  <body>
+    <header class="header inner-head">
+      <div class="container">
+        <div class="top_header">
+          <h3>Canada’s Premier Equestrian Real Estate Website</h3>
+        </div>
+      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="user_right">
+            <ul>
+              <li class="user">
+                <a href="#">Login</a> / <a href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#mymenu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mymenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="menu-item-has-children">
+                <a href="#">Horse Properties</a>
+                <ul class="sub-menu">
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">about</a></li>
+                </ul>
+              </li>
+              <li><a href="how-to-list.html">How to List</a></li>
+              <li><a href="iso.html">ISO</a></li>
+              <li><a href="agents.html">Agents</a></li>
+              <li class="search current-menu-item"><a href="map.html">Search / Map</a></li>
+              <li>
+                <a href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="inner-banner-sec map-banenr">
+      <img src="images/map-banner.jpg" alt="" />
+      <div class="banner-cont">
+        <a href="#url">
+            <i><img src="images/share-square.svg" alt=""></i>
+           <span>Full Screen</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="search_here common_gap pt-0">
+      <div class="container">
+          <div class="search_inner">
+              <h2>Start your Horse property search here</h2>
+              <form action="#">
+                  <div class="row search-row">
+                      <div class="col-lg-3 form-group">
+                          <div class="slct_optn">
+                              <span> <img src="images/apartment.svg" alt=""> </span>
+                              <select>
+                                  <option> Property Type</option>
+                                  <option> Property Type</option>
+                                  <option> Property Type</option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 form-group">
+                          <div class="slct_optn">
+                              <span> <img src="images/lollipop.svg" alt=""> </span>
+                              <select>
+                                  <option> Province * </option>
+                                  <option> Province * </option>
+                                  <option> Province * </option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 form-group">
+                          <div class="slct_optn">
+                              <span> <img src="images/pin.svg" alt=""> </span>
+                              <select>
+                                  <option> City / Town </option>
+                                  <option> City / Town </option>
+                                  <option> City / Town </option>
+                              </select>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 form-group">
+                          <div class="slct_optn">
+                              <span><img src="images/radius.svg" alt=""> </span>
+                              <select>
+                                  <option>Radius</option>
+                                  <option>Radius</option>
+                                  <option>Radius</option>
+                              </select>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 form-group">
+                          <div class="lanth">
+                              <ul>
+                                  <li> <span>#</span> Of Acres</li>
+                                  <li><input type="text" placeholder="Min"></li>
+                                  <li><input type="text" placeholder="Max"></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 form-group">
+                          <div class="slct_optn">
+                              <span> <img src="images/map.svg" alt=""> </span>
+                              <input type="text" placeholder="Keywords">
+                          </div>
+                      </div>
+                      <div class="col-lg-3 form-group">
+                          <div class="slct_optn">
+                              <span> <img src="images/list-text.svg" alt=""> </span>
+                              <select>
+                                  <option> Listing Type </option>
+                                  <option> Listing Type </option>
+                                  <option> Listing Type </option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 form-group">
+                          <div class="lanth">
+                              <ul>
+                                  <li> <span>$</span> Price</li>
+                                  <li><input type="text" placeholder="Min"></li>
+                                  <li><input type="text" placeholder="Max"></li>
+                              </ul>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-4 form-group">
+                          <div class="advance_search">
+                              <p>Fields with * must be selected</p>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-4 form-group">
+                          <button type="submit"><span> <img src="images/magnifying.svg" alt=""> </span>Search</button>
+                      </div>
+
+                      <div class="col-lg-4 form-group">
+                          <div class="advance_search">
+                              <ul>
+                                  <li class="add"><a class="fancybox" href="#one">Advanced Property Search</a></li>    
+                                </ul>
+                          </div>
+                      </div>
+
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+
+      <section class="speach-sec common_gap pt-0">
+        <div class="container">
+          <h2>Advanced Search Options:</h2>
+
+          <div class="check-section">
+            <form>
+              <div class="form-wrap">
+                <div class="form-input form-group">
+                  <h5>Area Of Province:</h5>
+                </div>
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-1">
+                  <label for="styled-checkbox-1">North</label>
+                </div>
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-2">
+                  <label for="styled-checkbox-2">South</label>
+                </div>
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-3">
+                  <label for="styled-checkbox-3">Central</label>
+                </div>
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-4">
+                  <label for="styled-checkbox-4">East</label>
+                </div>
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-5">
+                  <label for="styled-checkbox-5">West</label>
+                </div>
+              </div>
+
+
+              <div class="horse-property">
+                <h4>Horse Property Features</h4>
+
+                <div class="property-wrap">
+                                          
+                  <div class="property-colm">
+                    <ul>
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-6">
+                          <label for="styled-checkbox-6">House</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-7">
+                          <label for="styled-checkbox-7">Barn</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-8">
+                          <label for="styled-checkbox-8">Heated Barn</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-9">
+                          <label for="styled-checkbox-9">Tie stalls</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-10">
+                          <label for="styled-checkbox-10">Box Stalls</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-11">
+                          <label for="styled-checkbox-11">Of Stalls</label>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="property-colm">
+                    <ul>
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-12">
+                          <label for="styled-checkbox-12">Stallion Barn</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-13">
+                          <label for="styled-checkbox-13">Mare Barn</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-14">
+                          <label for="styled-checkbox-14">Tack Room</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-15">
+                          <label for="styled-checkbox-15">Vet Room</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-16">
+                          <label for="styled-checkbox-16">Wash Bay</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-17">
+                          <label for="styled-checkbox-17">Barn Office</label>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="property-colm">
+                    <ul>
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-18">
+                          <label for="styled-checkbox-18">Loundry</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-19">
+                          <label for="styled-checkbox-19">Indoor Arena</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-20">
+                          <label for="styled-checkbox-20">Heated Indoor Arena</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-21">
+                          <label for="styled-checkbox-21">Outdoor Riding Arena</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-22">
+                          <label for="styled-checkbox-22">Arena Viewing Area</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-23">
+                          <label for="styled-checkbox-23">Spectator Seating</label>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="property-colm">
+                    <ul>
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-24">
+                          <label for="styled-checkbox-24">Riding Trails</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-25">
+                          <label for="styled-checkbox-25">Round Pen</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-26">
+                          <label for="styled-checkbox-26">Electric Fence</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-27">
+                          <label for="styled-checkbox-27">Wire Fence</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-28">
+                          <label for="styled-checkbox-28">Pipe Fence</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-29">
+                          <label for="styled-checkbox-29">Wood Fence</label>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="property-colm">
+                    <ul>
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-30">
+                          <label for="styled-checkbox-30">Pasture</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-31">
+                          <label for="styled-checkbox-31">Paddock</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-32">
+                          <label for="styled-checkbox-32">Horse Shelters</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-33">
+                          <label for="styled-checkbox-33">Automatic Waterer</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-34">
+                          <label for="styled-checkbox-34">Dugout</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-35">
+                          <label for="styled-checkbox-35">Fire Alarm</label>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="property-colm">
+                    <ul>
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-36">
+                          <label for="styled-checkbox-36">Outbuildings</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-37">
+                          <label for="styled-checkbox-37">Cross Fence</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-38">
+                          <label for="styled-checkbox-38">Shop</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-39">
+                          <label for="styled-checkbox-39">Hay Storage Shed</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-40">
+                          <label for="styled-checkbox-40">Staff Housing</label>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="form-input form-group">
+                          <input type="checkbox" class="styled-checkbox" id="styled-checkbox-41">
+                          <label for="styled-checkbox-41">Stall Cameras</label>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="form-wrap form-wrap2">
+                <div class="form-input form-group">
+                  <h5>Amenities:</h5>
+                </div>
+                <div class="form-input">
+                  <label>Tim Hortons</label>
+                </div>
+                <div class="form-input">
+                  <label>Shopping</label>
+                </div>
+                <div class="form-input">
+                  <label>Groceries</label>
+                </div>
+                <div class="form-input">
+                  <label>Restaurants</label>
+                </div>
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-46">
+                  <label for="styled-checkbox-46">Within 10-30 Km</label>
+                </div>
+
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-47">
+                  <label for="styled-checkbox-47">Within 30-50 Km</label>
+                </div>
+
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-48">
+                  <label for="styled-checkbox-48">Within 50+ Km</label>
+                </div>
+
+              </div>
+
+              <div class="form-wrap form-wrap2">
+                <div class="form-input form-group">
+                  <h5>Schools:</h5>
+                </div>
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-53">
+                  <label for="styled-checkbox-53">Within 10-30 Km</label>
+                </div>
+
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-54">
+                  <label for="styled-checkbox-54">Within 30-50 Km</label>
+                </div>
+
+                <div class="form-input form-group">
+                  <input type="checkbox" class="styled-checkbox" id="styled-checkbox-55">
+                  <label for="styled-checkbox-55">Within 50+ Km</label>
+                </div>
+
+              </div>
+
+
+              <div class="butts search_inner text-center">
+                <div class="form-input">
+                  <button type="submit"><span> <img src="images/magnifying.svg" alt=""> </span>Search Now</button>
+                </div>  
+              </div>
+
+              <div class="info-sec">
+                <p>
+                 <strong>Be the first to know about new horse property listings in your area</strong>
+                </p>
+
+                <div class="input-wrap">
+                  <div class="form-input">
+                    <input type="text" placeholder="First name">
+                  </div>
+
+                  <div class="form-input">
+                    <input type="email" placeholder="Email">
+                  </div>
+
+                  <div class="form-input">
+                    <div class="province-sec">
+                      <label>Province:</label>
+                      <select>
+                        <option>&nbsp;</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-input">
+                    <div class="province-sec">
+                      <label>Area:</label>
+                      <select>
+                        <option>&nbsp;</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-input">
+                    <img src="images/captcha.jpg" alt="">
+                  </div>
+
+                  <div class="form-input">
+                    <input type="submit" value="Sign Up">
+                  </div>
+
+                </div>
+              </div>
+
+
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+    <footer class="footers-sec">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-wrap">
+            <div class="footer-col">
+              <h4>Canadian Horse Properties</h4>
+
+              <div class="footer-social">
+                <h6>Follow Us:</h6>
+                <ul>
+                  <li>
+                    <a href="#url"><img src="images/facebook.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#url"><img src="images/instagram.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#url"><img src="images/pinterest.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#url"><img src="images/linkedin.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#url"><img src="images/twitter.svg" alt="" /></a>
+                  </li>
+                </ul>
+
+                <p>
+                  Stay Informed with Our Horse Property Real Estate Update
+                </p>
+              </div>
+
+              <div class="footer-form">
+                <form>
+                  <div class="form-input">
+                    <input type="email" placeholder="Enter email" />
+                    <input type="submit" value="Subscribe" />
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-logo">
+                <a href="index.html">
+                  <img src="images/footer-logo.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-list">
+                <h4>Quick Links</h4>
+
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="agents.html">Find an Agent</a></li>
+                  <li><a href="#url">Farm And Ranch Supplies</a></li>
+                  <li><a href="blogs.html">Blog</a></li>
+                  <li>
+                    <a href="about.html">About Us</a>
+                  </li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+                  <li><a href="horse-gift.html">Horse Gifts</a></li>
+                  <li><a href="useful-links.html">Useful Links</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-list">
+                <h4>Equestrian Real Estate For Sale</h4>
+
+                <ul>
+                  <li><a href="#url">Horse property in British Columbia</a></li>
+                  <li><a href="#url">Horse property in Alberta</a></li>
+                  <li><a href="#url">Horse property in Saskatchewan</a></li>
+                  <li><a href="#url">Horse property in Manitoba</a></li>
+                  <li><a href="#url">Horse property in Ontario</a></li>
+                  <li><a href="#url">Horse property in Quebec</a></li>
+                  <li><a href="#url">Horse property in Nfld/Lab</a></li>
+                  <li>
+                    <a href="#url">Horse property in Prince Edward Island</a>
+                  </li>
+                  <li><a href="#url">Horse property in Nova Scotia</a></li>
+                  <li><a href="#url">Horse property in New Brunswick</a></li>
+                  <li><a href="#url">Horse property in NW</a></li>
+                  <li><a href="#url">Horse property Auction</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-list">
+                <h4>Property Type</h4>
+
+                <ul>
+                  <li><a href="#url">Acreages</a></li>
+                  <li><a href="#url">Farms</a></li>
+                  <li><a href="#url">Ranches</a></li>
+                  <li><a href="#url">Horse Boarding stable</a></li>
+                  <li><a href="#url">Pasture Land</a></li>
+                  <li><a href="#url">Outfitting Property</a></li>
+                  <li><a href="#url">Indoor Training Facility</a></li>
+                  <li><a href="#url">Luxury Equestrian Estate</a></li>
+                  <li><a href="#url">Equestrian Events Centre</a></li>
+                  <li><a href="#url">Farm Land</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom-wrap">
+            <div class="bottom-link">
+              <ul>
+                <li><a href="#url">Terms and Conditions</a></li>
+                <li><a href="#url">Privacy Policy</a></li>
+              </ul>
+            </div>
+
+            <div class="copyright">
+              <p>2021 © CanadianHorseProperties.com</p>
+              <p>
+                Each property advertised is privately owned or represented by an
+                authorized agent or agency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="top">
+      <a href="#url"><img src="images/down-arrow-golden.svg" alt="" /></a>
+    </div>
+
+
+
+    <a href="" class="fancybox" style="display:none">link</a>
+
+    <div id="one" class="fancybox-sec" style="display:none">
+            <div class="fancybox-row">
+
+                <div class="image-sec">
+                    <img src="images/popupimage.jpg" alt="">
+                </div>
+
+                <div class="popup-form">
+                    <h2>Don't Miss Out!</h2>
+
+                    <p>
+                       Sign up and be the first to know about new horse property listings 
+                       in your area.
+                    </p>
+
+                    <form>
+                        <div class="row popup-row">
+                            <div class="col-md-12 popup-col">
+                                <div class="form-input">
+                                    <input type="text" placeholder="First Name*">
+                                 </div>
+                            </div>
+                            <div class="col-md-12 popup-col">
+                                <div class="form-input">
+                                    <input type="text" placeholder="Last Name">
+                                 </div>
+                            </div>
+                            <div class="col-md-12 popup-col">
+                                <div class="form-input">
+                                    <input type="email" placeholder="Email*">
+                                 </div>
+                            </div>
+                            <div class="col-md-6 popup-col">
+                                <div class="form-input">
+                                    <label>*Province:</label>
+                                    <select>
+                                      <option>British Columbia</option>
+                                      <option>Alberta</option>
+                                      <option>Saskatchewan</option>
+                                      <option>Manitoba</option>
+                                      <option>Ontario</option>
+                                      <option>Quebec</option>
+                                      <option>Nfld/Lab</option>
+                                      <option>Prince Edward Island</option>
+                                      <option>Nova Scotia</option>
+                                      <option>New Brunswick</option>
+                                      <option>NW</option>
+                                  </select>
+                                 </div>
+                            </div>
+                            <div class="col-md-6 popup-col">
+                                <div class="form-input">
+                                    <label>Area:</label>
+                                    <select>
+                                        <option>Noth East</option>
+                                        <option>Noth West</option>
+                                        <option>South East</option>
+                                        <option>South West</option>
+                                        <option>Central East</option>
+                                        <option>Central West</option>
+                                    </select>
+                                 </div>
+                            </div>
+                            <div class="col-md-12 popup-col">
+                                <div class="form-input">
+                                    <input type="submit" value="Send me property alerts">
+                                 </div>
+                            </div>
+                        </div>
+
+
+
+                         <a href="mailto:www.canadianhorseproperties.com">www.canadianhorseproperties.com</a>
+
+                         <p>*Fields with * must be filled</p>
+
+                    </form>
+
+                </div>
+            </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
